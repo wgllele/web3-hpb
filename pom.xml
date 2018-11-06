@@ -45,9 +45,15 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcprov-jdk15on</artifactId>
 			<version>1.60</version>
+=======
+		    <groupId>org.bouncycastle</groupId>
+		    <artifactId>bcprov-jdk15on</artifactId>
+		    <version>1.60</version>
+>>>>>>> branch 'master' of https://github.com/wgllele/web3-hpb.git
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 		<dependency>
@@ -80,15 +86,35 @@
 		</dependency>
 
 	</dependencies>
+<<<<<<< HEAD
+=======
+	<!-- (you don't need this if you are using a .RELEASE version) -->
+	<repositories>
+		<repository>
+			<id>maven-releases</id>
+			<name>Nexus Release Repository</name>
+			<url>http://47.75.203.209:8081/nexus3/repository/maven-releases/</url>
+		</repository>
+	</repositories>
+>>>>>>> branch 'master' of https://github.com/wgllele/web3-hpb.git
 	<distributionManagement>
 		<repository>
+<<<<<<< HEAD
 			<id>snapshots</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+=======
+			<id>maven-releases</id>
+			<name>Nexus Release Repository</name>
+			<url>http://47.75.203.209:8081/nexus3/repository/maven-releases/</url>
+>>>>>>> branch 'master' of https://github.com/wgllele/web3-hpb.git
 		</repository>
+<<<<<<< HEAD
 		<snapshotRepository>
 			<id>snapshots</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
+=======
+>>>>>>> branch 'master' of https://github.com/wgllele/web3-hpb.git
 	</distributionManagement>
 	<build>
 		<plugins>
@@ -109,7 +135,11 @@
 				</executions>
 			</plugin>
 		</plugins>
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> branch 'master' of https://github.com/wgllele/web3-hpb.git
 	</build>
 	<licenses>
 		<license>
